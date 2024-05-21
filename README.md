@@ -4,9 +4,9 @@ Welcome to my Intune MDM Security Baseline Setup Guide repository! This project 
 
 ## Table of Contents
 
-- [Introduction](#overview)
+- [Overview](#overview)
 - [Usage Instructions](#features)
-- [Contributing](#security-baselines)
+- [Security Baselines](#security-baselines)
 - [How To Use](#how-to-use)
 - [License](#license)
 
