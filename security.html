@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intune MDM Security Settings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Intune MDM Setup Guide</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Overview</a></li>
+                <li><a href="security.html">Security</a></li>
+                <li><a href="best-practices.html">Best Practices</a></li>
+                <li><a href="export.html">Export Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="security">
+            <h2>Security Baselines</h2>
+            <div class="baselines">
+                <div class="baseline" id="basic">
+                    <h3>Basic Security Baseline</h3>
+                    <div class="setting">
+                        <input type="checkbox" id="selectAllBasic" onclick="selectAll('basic')">
+                        <label for="selectAllBasic">Select All</label>
+                    </div>
+                    <div id="basicSettings"></div>
+                </div>
+
+                <div class="baseline" id="intermediate">
+                    <h3>Intermediate Security Baseline</h3>
+                    <div class="setting">
+                        <input type="checkbox" id="selectAllIntermediate" onclick="selectAll('intermediate')">
+                        <label for="selectAllIntermediate">Select All</label>
+                    </div>
+                    <div id="intermediateSettings"></div>
+                </div>
+
+                <div class="baseline" id="expert">
+                    <h3>Expert Security Baseline</h3>
+                    <div class="setting">
+                        <input type="checkbox" id="selectAllExpert" onclick="selectAll('expert')">
+                        <label for="selectAllExpert">Select All</label>
+                    </div>
+                    <div id="expertSettings"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Intune Setup Guide</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
